@@ -19,6 +19,16 @@
 <ol>
  <li><a href="https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Recursion/article/NzUxMg%3D%3D">Josephsus problem</a></li>
  <li><a href="https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Recursion/problem/possible-words-from-phone-digits-1587115620">Possible words from phone number digit</a></li>
+  <li><a href="https://leetcode.com/problems/unique-paths/description/">Unique Path</a></li>
+ <li><a href="https://leetcode.com/problems/unique-paths-ii/description/">Unique Path II</a></li>
+ <li><a href="https://leetcode.com/problems/flood-fill/description/">Flood fill</a></li>
+ </ol>
+ <li>Hard</li>
+ <ol>
+ <li><a href="https://leetcode.com/problems/unique-paths-iii/description/">Unique path III</a></li>
+ <li><a href="https://leetcode.com/problems/n-queens/description/">N Queens</a></li>
+ <li><a href="https://leetcode.com/problems/check-knight-tour-configuration/">Check Knight tour configuration</a></li>
+ </ol>
 </ol>
 
 </ol>
