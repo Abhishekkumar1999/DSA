@@ -1,0 +1,7 @@
+Problem Statement
+
+https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question&envId=2024-09-04
+
+Solution
+
+Just follow the simulation instruction. No extraordinary concept used here in this Problem.
