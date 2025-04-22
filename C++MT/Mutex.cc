@@ -18,16 +18,16 @@ int main()
     int var=0;
     auto fun=[&]()
     {
-        for(int i=0;i<10;i++){
+        for(int i=0;i<100000;i++){
           m.lock();
           var++;
-          cout<<std::this_thread::get_id()<<" "<<var<<endl;
+          //cout<<std::this_thread::get_id()<<" "<<var<<endl;
           m.unlock();
-          std::this_thread::sleep_for(chrono::seconds(2));
+          //std::this_thread::sleep_for(chrono::seconds(2));
         }
     };
     thread t1(fun);
-    cout<<"Hello"<<endl;
+    //cout<<"Hello"<<endl;
     thread t2(fun);
     t1.join();
     t2.join();
