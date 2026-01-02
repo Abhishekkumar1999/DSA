@@ -15,6 +15,9 @@
 // / Either join() or detach() should be called on thread object, otherwise during thread object's destructor it will
 // / terminate the program. Because inside destructor it checks if thread is still joinable? if yes then it terminates the program.
 
+//We can get id information using this_thread::get_id():
+//std::cout << "Number of threads = " <<  std::thread::hardware_concurrency() << std::endl;
+
 //Examples
 #include<iostream>
 #include<thread>
